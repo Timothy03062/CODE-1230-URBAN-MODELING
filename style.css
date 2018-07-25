@@ -11,7 +11,7 @@ border-width: 10px;
 border-color: #CDSCSC;
 }
 
-#Sidenav a {
+Sidenav a {
     position: absolute; 
     left: -80px; 
     transition: 0.3s; 
@@ -23,27 +23,27 @@ border-color: #CDSCSC;
     border-radius: 0 5px 5px 0; 
 }
 
-#Sidenav a:hover {
+Sidenav a:hover {
     left: 0; /* On mouse-over, make the elements appear as they should */
 }
 
 /* The about link: 20px from the top with a green background */
-#image 1 {
+image 1 {
     top: 20px;
     background-color: #4CAF50;
 }
 
-#image 2 {
+image 2 {
     top: 80px;
     background-color: #2196F3; /* Blue */
 }
 
-#image 3 {
+image 3 {
     top: 140px;
     background-color: #f44336; /* Red */
 }
 
-#image 4 {
+image 4 {
     top: 200px;
     background-color: #555 /* Light Black */
 }
