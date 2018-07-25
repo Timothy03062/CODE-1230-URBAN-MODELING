@@ -11,39 +11,40 @@ border-width: 10px;
 border-color: #CDSCSC;
 }
 
-Sidenav a {
-    position: absolute; 
-    left: -80px; 
-    transition: 0.3s; 
-    padding: 15px; 
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
     width: 100px;
-    text-decoration: none; 
-    font-size: 20px; 
-    color: white; 
-    border-radius: 0 5px 5px 0; 
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
 }
 
-Sidenav a:hover {
-    left: 0; /* On mouse-over, make the elements appear as they should */
+#mySidenav a:hover {
+    left: 0;
 }
 
-/* The about link: 20px from the top with a green background */
-Image 1 {
+#about {
     top: 20px;
     background-color: #4CAF50;
 }
 
-image 2 {
+#blog {
     top: 80px;
-    background-color: #2196F3; /* Blue */
+    background-color: #2196F3;
 }
 
-image 3 {
+#projects {
     top: 140px;
-    background-color: #F44336; /* Red */
+    background-color: #f44336;
 }
 
-image 4 {
+#contact {
     top: 200px;
-    background-color: #555 /* Light Black */
+    background-color: #555
 }
+
