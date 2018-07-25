@@ -9,13 +9,61 @@
   
   <body>
     <h1>Urban Modelling Week 1</h1>
-    <div id="Sidenav" class="sidenav">
-      <a href="https://raw.githubusercontent.com/Timothy03062/CODE-1230-URBAN-Modelling/master/Image%201.jpg" id="image 1">Image 1</a>
-      <a href="#" id="image 2">Image 2</a>
-      <a href="#" id="image 3">Image 3</a>
-      <a href="#" id="image 4">Image 4</a>
-      <a href="#" id="image 5">Image 5</a>
-    </div>
+    <!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#blog {
+    top: 80px;
+    background-color: #2196F3;
+}
+
+#projects {
+    top: 140px;
+    background-color: #f44336;
+}
+
+#contact {
+    top: 200px;
+    background-color: #555
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="#" id="about">About</a>
+  <a href="#" id="blog">Blog</a>
+  <a href="#" id="projects">Projects</a>
+  <a href="#" id="contact">Contact</a>
+</div>
+
+<div style="margin-left:80px;">
+  <h2>Hoverable Sidenav Buttons</h2>
+  <p>Hover over the buttons in the left side navigation to open them.</p>
+</div>
+
+    
     <p> image 1</p>
     <image src="https://raw.githubusercontent.com/Timothy03062/CODE-1230-URBAN-Modelling/master/Image%201.jpg"/>
     <footer>
