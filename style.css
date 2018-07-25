@@ -11,17 +11,16 @@ border-width: 10px;
 border-color: #CDSCSC;
 }
 
-/* Style the links inside the sidenav */
 #Sidenav a {
-    position: absolute; /* Position them relative to the browser window */
-    left: -80px; /* Position them outside of the screen */
-    transition: 0.3s; /* Add transition on hover */
-    padding: 15px; /* 15px padding */
-    width: 100px; /* Set a specific width */
-    text-decoration: none; /* Remove underline */
-    font-size: 20px; /* Increase font size */
-    color: white; /* White text color */
-    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    position: absolute; 
+    left: -80px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px;
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
 }
 
 #Sidenav a:hover {
@@ -47,3 +46,4 @@ border-color: #CDSCSC;
 #image 4 {
     top: 200px;
     background-color: #555 /* Light Black */
+}
