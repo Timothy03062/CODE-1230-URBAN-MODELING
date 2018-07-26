@@ -11,3 +11,17 @@ border-style: solid;
 border-width: 10px;
 border-color: #FFFAFA;
 }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Impact;
+    font-size: 50px
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
