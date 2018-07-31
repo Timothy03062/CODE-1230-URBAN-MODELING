@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Urban Modelling Week 1</h1>
+    <p>Image 1 
+    <image src="" alt="image missing" style="width:800px;height:430px;" />
+    Image 2 
+    <image src="" alt="image missing" style="width:800px;height:400px;" />
+    Image 3 
+    <image src="" alt="image missing" style="width:800px;height:430px;" />
+    Image 4 
+    <image src=" alt="image missing" style="width:800px;height:500px;" />
+    Image 5 
+    <image src="" alt="image missing" style="width:750px;height:400px;" 
+    </p>
+    
+  </body>
